@@ -1,0 +1,118 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+}
+
+.bg-home {
+    height: 861px;
+    width: 484px;
+    color: #ffffff;
+    background-image: url(../images/p7_Background.png);
+    position: relative;
+    top: 40px;
+    box-shadow: 0 0 1.25em 0 rgba(0, 0, 0, .3);
+}
+
+.bg-home h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.bg-home p {
+    font-size: 1.2em;
+}
+
+.img-logo img {
+    height: 115px;
+    margin-top: 190px;
+    margin-bottom: 160px;
+}
+
+.no-account {
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    color: #adadad;
+    font-size: 0.9em!important;
+}
+.no-account a{
+    color: #ffffff;
+    margin-left: 5px;
+}
+.no-account a:hover {
+    color: #D667CD;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.form {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+label {
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 25px 0 0px 0px;
+}
+
+input[type="text"],input[type="password"] {
+    height: 50px;
+    color: #ffffff;
+    background: transparent;
+    font-size: 1.2em;
+    font-weight: 400;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    box-shadow: none !important;
+    padding: 15px 0 15px 0;
+}
+
+.btn-sign-in {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    border-radius: 0px;
+    background-color: #01B9FF;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.btn-sign-up {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    border-radius: 0px;
+    background-color: #D667CD;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.btn-sign-in:hover {
+    color: #ffffff;
+    background-color: #33C5FF;
+}
+
+.btn-sign-up:hover {
+    color: #ffffff;
+    background-color: #DD7ED5;
+}
+
+.btn-login {
+    height: 70px;
+    width: inherit;
+    position: relative;
+    margin: 50px 0px 30px 00px;
+    padding-left: 25px;
+    font-size: 1.1em;
+}
