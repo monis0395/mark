@@ -19,14 +19,28 @@ body {
     font-weight: 300;
 }
 
+.bg-home h3 {
+    font-weight: 200;
+}
+
 .bg-home p {
     font-size: 1.2em;
 }
 
 .img-logo img {
     height: 115px;
-    margin-top: 190px;
-    margin-bottom: 160px;
+    margin-top: 160px;
+    margin-bottom: 145px;
+}
+
+.img-upload i {
+    font-size: 115px;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.home-heading {
+    margin-top: 120px;
 }
 
 .no-account {
@@ -36,12 +50,19 @@ body {
     color: #adadad;
     font-size: 0.9em!important;
 }
+
 .no-account a{
     color: #ffffff;
     margin-left: 5px;
 }
 .no-account a:hover {
     color: #D667CD;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.hav-account a:hover  {
+    color: #01B9FF;
     text-decoration: none;
     font-weight: 400;
 }
@@ -59,7 +80,7 @@ label {
     margin: 25px 0 0px 0px;
 }
 
-input[type="text"],input[type="password"] {
+input[type="text"],input[type="password"],input[type="email"] {
     height: 50px;
     color: #ffffff;
     background: transparent;
@@ -70,6 +91,13 @@ input[type="text"],input[type="password"] {
     border-bottom: 1px solid white;
     box-shadow: none !important;
     padding: 15px 0 15px 0;
+}
+
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bdbdbd;
+  font-size: 1.2em;
+  font-weight: 200;
 }
 
 .btn-sign-in {
@@ -108,11 +136,11 @@ input[type="text"],input[type="password"] {
     background-color: #DD7ED5;
 }
 
-.btn-login {
+.btn-block {
     height: 70px;
     width: inherit;
     position: relative;
-    margin: 50px 0px 30px 00px;
+    margin: 50px 0 30px 0;
     padding-left: 25px;
     font-size: 1.1em;
 }
